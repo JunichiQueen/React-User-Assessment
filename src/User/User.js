@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { isTemplateElement } from '@babel/types';
 
-function User (props){
+export default function User (props){
     const {
         username
     } = props
@@ -12,5 +12,3 @@ function User (props){
         </div>
     )
 }
-
-export default User;

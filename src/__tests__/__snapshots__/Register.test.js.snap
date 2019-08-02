@@ -2,36 +2,77 @@
 
 exports[`snapshot app 1`] = `
 <div>
+  <h1
+    className="text-center jumbotron"
+  >
+    Register
+  </h1>
   <form
+    className="text-center"
     onSubmit={[Function]}
   >
     <p>
       Username
     </p>
     <input />
-    <p>
-      Password
-    </p>
-    <input />
-    <br />
-    <button
-      type="submit"
-    >
-      Login
-    </button>
     <p
       style={
         Object {
-          "color": "green",
+          "color": "red",
         }
       }
     >
       
     </p>
+    <p>
+      Email
+    </p>
+    <input />
     <p
       style={
         Object {
           "color": "red",
+        }
+      }
+    >
+      
+    </p>
+    <p>
+      Password
+    </p>
+    <input />
+    <p
+      style={
+        Object {
+          "color": "red",
+        }
+      }
+    >
+      
+    </p>
+    <p>
+      Password2
+    </p>
+    <input />
+    <p
+      style={
+        Object {
+          "color": "red",
+        }
+      }
+    >
+      
+    </p>
+    <br />
+    <button
+      type="submit"
+    >
+      Create Account
+    </button>
+    <p
+      style={
+        Object {
+          "color": "green",
         }
       }
     >

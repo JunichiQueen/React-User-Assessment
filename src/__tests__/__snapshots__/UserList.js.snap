@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot app 1`] = `
+<div>
+  <table
+    className="table"
+  >
+    <tbody />
+  </table>
+</div>
+`;

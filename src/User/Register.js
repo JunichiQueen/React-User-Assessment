@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 
-class Register extends Component {
+export default class Register extends Component {
     constructor(){
         super();
         this.state={
@@ -61,7 +61,7 @@ class Register extends Component {
         return(
             <div>
                 <h1 className="text-center jumbotron">Register</h1>
-                <form onSubmit={this.createUser}>
+                <form className="text-center" onSubmit={this.createUser}>
                     <p>Username</p>
                     <input></input>
                     <p style={{color: 'red'}}>{this.state.username}</p>
@@ -84,5 +84,3 @@ class Register extends Component {
     }
 
 }
-
-export default Register;

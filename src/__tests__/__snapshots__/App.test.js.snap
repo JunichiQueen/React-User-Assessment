@@ -37,12 +37,22 @@ exports[`snapshot app 1`] = `
       Register
     </h1>
     <form
+      className="text-center"
       onSubmit={[Function]}
     >
       <p>
         Username
       </p>
       <input />
+      <p
+        style={
+          Object {
+            "color": "red",
+          }
+        }
+      >
+        
+      </p>
       <p>
         Email
       </p>
@@ -60,6 +70,15 @@ exports[`snapshot app 1`] = `
         Password
       </p>
       <input />
+      <p
+        style={
+          Object {
+            "color": "red",
+          }
+        }
+      >
+        
+      </p>
       <p>
         Password2
       </p>

@@ -3,11 +3,12 @@ import { Table } from 'reactstrap';
 
 import User from './User.js';
 
-class UserList extends Component{
+export default class UserList extends Component{
     render(){
         return(
             <div>
-                <Table>
+                <h2 className="text-center">User List</h2>
+                <Table className="text-center" striped>
                     <tbody>
                         {this.props.data.map((item) => (
                             <tr key={item._id}><td><User username={item.username}/></td></tr>
@@ -18,8 +19,4 @@ class UserList extends Component{
             </div>
         )
     }
-
-
 }
-
-export default UserList
