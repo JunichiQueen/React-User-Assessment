@@ -51,8 +51,6 @@ export default class Register extends Component {
                     password: ""
                 })
             }
-
-            console.log(response);
         }).catch(err => {
             console.log(err)
         });
