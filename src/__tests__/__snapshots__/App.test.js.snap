@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot app 1`] = `
+<div>
+  <div>
+    <ul>
+      <li>
+        <a
+          href="/"
+          onClick={[Function]}
+        >
+          Home
+        </a>
+      </li>
+      <li>
+        <a
+          href="/userlist"
+          onClick={[Function]}
+        >
+          User List
+        </a>
+      </li>
+      <li>
+        <a
+          href="/login"
+          onClick={[Function]}
+        >
+          Login
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div>
+    <h1
+      className="text-center jumbotron"
+    >
+      Register
+    </h1>
+    <form
+      onSubmit={[Function]}
+    >
+      <p>
+        Username
+      </p>
+      <input />
+      <p>
+        Email
+      </p>
+      <input />
+      <p
+        style={
+          Object {
+            "color": "red",
+          }
+        }
+      >
+        
+      </p>
+      <p>
+        Password
+      </p>
+      <input />
+      <p>
+        Password2
+      </p>
+      <input />
+      <p
+        style={
+          Object {
+            "color": "red",
+          }
+        }
+      >
+        
+      </p>
+      <br />
+      <button
+        type="submit"
+      >
+        Create Account
+      </button>
+      <p
+        style={
+          Object {
+            "color": "green",
+          }
+        }
+      >
+        
+      </p>
+    </form>
+  </div>
+</div>
+`;

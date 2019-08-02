@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot app 1`] = `
+<div>
+  <form
+    onSubmit={[Function]}
+  >
+    <p>
+      Username
+    </p>
+    <input />
+    <p>
+      Password
+    </p>
+    <input />
+    <br />
+    <button
+      type="submit"
+    >
+      Login
+    </button>
+    <p
+      style={
+        Object {
+          "color": "green",
+        }
+      }
+    >
+      
+    </p>
+    <p
+      style={
+        Object {
+          "color": "red",
+        }
+      }
+    >
+      
+    </p>
+  </form>
+</div>
+`;
